@@ -17,8 +17,11 @@ int main()
     double P2;
     double P3;
 
-    cout << "Zadai radius:" << endl;
+    cout << "--------------------------------------" << endl;
+
+    cout << "Zadai radius: ";
     cin >> Rad;
+    cout << endl;
 
     P1 = Perimitir(n1);
     cout << "Perimiter ten-ygolnika: " << P1 << endl << endl;
@@ -29,7 +32,9 @@ int main()
     P3 = Perimitir(n3);
     cout << "Perimiter sto-ygolnika: " << P3 << endl << endl;
 
-    system("pause");
+    cout << "Vce!!!" << endl;
+    cout << "--------------------------------------" << endl;
+
 }
 
 double Perimitir(double Nya)
